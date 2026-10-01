@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Canonicalize the retained bundle staging directory so keep-source-bundles succeeds when the temporary path is an alias.
 - Refresh ESLint, typescript-eslint, and Node.js 24 declarations while retaining compatible TypeScript and Vitest tooling. Thanks @dependabot.
 - Update fast-uri and brace-expansion to patched releases, clearing development dependency security advisories.
 
